@@ -11,7 +11,7 @@ const SixthSection = () => {
       <Button
         size="lg"
         radius="lg"
-        className="bg-white text-orange text-5xl font-bold !py-10"
+        className="bg-white text-orange text-2xl font-bold !py-10"
       >
         Descúbrelas todas
       </Button>

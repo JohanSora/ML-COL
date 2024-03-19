@@ -7,7 +7,7 @@ const FirstSection = () => {
     <div className="w-full flex justify-between py-6 px-12 bg-light-gray">
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-6">
-          <h1 className="text-8xl font-bold text-gray">
+          <h1 className="lg:text-7xl 2xl:text-8xl font-bold text-gray">
             Experiencias <br /> que cautivan
           </h1>
           <p className="text-4xl">De espectador a protagonista</p>
