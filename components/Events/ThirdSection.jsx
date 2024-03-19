@@ -34,9 +34,18 @@ const ThirdSection = () => {
         ))}
       </div>
       <div>
-        <Button size="lg" radius="sm" className="bg-white text-black font-bold">
-          Cuéntanos lo que estás buscando y hagamos que pase
-        </Button>
+        <a
+          href="https://wa.me/573144384684?text=Hola%2C%20Starlogic"
+          target="_blank"
+        >
+          <Button
+            size="lg"
+            radius="sm"
+            className="bg-white text-black font-bold"
+          >
+            Cuéntanos lo que estás buscando y hagamos que pase
+          </Button>
+        </a>
       </div>
     </div>
   );

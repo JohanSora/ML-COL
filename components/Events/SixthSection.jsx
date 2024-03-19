@@ -8,13 +8,15 @@ const SixthSection = () => {
         ¡Ahorra tiempo! <br /> Conoce nuestras experiencias preestablecidas
       </h2>
       <p className="text-3xl">Planes listos para replicar y disfrutar</p>
-      <Button
-        size="lg"
-        radius="lg"
-        className="bg-white text-orange text-2xl font-bold !py-10"
-      >
-        Descúbrelas todas
-      </Button>
+      <a href="https://meetings.hubspot.com/kathy-cifuentes" target="_blank">
+        <Button
+          size="lg"
+          radius="lg"
+          className="bg-white text-orange text-2xl font-bold !py-10"
+        >
+          Descúbrelas todas
+        </Button>
+      </a>
     </div>
   );
 };

@@ -13,13 +13,18 @@ const FirstSection = () => {
           <p className="text-4xl">De espectador a protagonista</p>
         </div>
         <div>
-          <Button
-            size="lg"
-            radius="sm"
-            className="bg-orange text-white text-3xl !py-6 font-bold"
+          <a
+            href="https://meetings.hubspot.com/kathy-cifuentes"
+            target="_blank"
           >
-            Creemos tu evento
-          </Button>
+            <Button
+              size="lg"
+              radius="sm"
+              className="bg-orange text-white text-3xl !py-6 font-bold"
+            >
+              Creemos tu evento
+            </Button>
+          </a>
         </div>
       </div>
       <div className="w-1/3 max-h-[370px]">

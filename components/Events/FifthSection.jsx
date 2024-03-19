@@ -18,13 +18,15 @@ const FifthSection = () => {
           <strong>se sientan como los protagonistas</strong> de la gran historia
           que juntos contaremos.
         </p>
-        <Button
-          size="lg"
-          radius="lg"
-          className="bg-white text-dark-blue font-bold w-fit"
-        >
-          ¡Visita nuestra galería!
-        </Button>
+        <a href="https://mymarketlogic.net/galerias/" target="_blank">
+          <Button
+            size="lg"
+            radius="lg"
+            className="bg-white text-dark-blue font-bold w-fit"
+          >
+            ¡Visita nuestra galería!
+          </Button>
+        </a>
       </div>
     </div>
   );

@@ -9,7 +9,7 @@ const FormSection = () => {
         <div className="w-1/4 h-fit max-h-[364px]">
           <ImageNext src={"/Events/manos.png"} width={500} height={500} />
         </div>
-        <div className="w-1/2 pt-6">
+        <div className="w-1/2 pt-6" id="form">
           <Form />
         </div>
       </div>

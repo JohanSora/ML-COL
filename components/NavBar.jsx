@@ -8,9 +8,15 @@ const NavBar = () => {
       <div className="w-[250px] max-h-[60px]">
         <ImageNext src={"/mlLogo.png"} width={500} height={500} />
       </div>
-      <Button size="lg" radius="sm" className="bg-white text-orange font-bold">
-        Cotiza tu evento
-      </Button>
+      <a href="#form">
+        <Button
+          size="lg"
+          radius="sm"
+          className="bg-white text-orange font-bold"
+        >
+          Cotiza tu evento
+        </Button>
+      </a>
     </div>
   );
 };
