@@ -4,7 +4,7 @@ import ImageNext from "../atoms/ImageNext";
 const FourthSection = () => {
   return (
     <div className="w-full flex flex-col relative">
-      <div className="absolute w-[150px]">
+      <div className="absolute w-[150px] max-h-[80px]">
         <ImageNext
           src={"/Events/rocket.png"}
           width={300}

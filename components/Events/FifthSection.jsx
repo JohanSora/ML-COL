@@ -5,7 +5,7 @@ import ImageNext from "../atoms/ImageNext";
 const FifthSection = () => {
   return (
     <div className="w-full flex pt-6 bg-dark-blue items-center">
-      <div className="w-1/2">
+      <div className="w-1/2 max-h-[410px]">
         <ImageNext src={"/Events/mac.png"} width={1000} height={1000} />
       </div>
       <div className="text-white w-1/2 flex flex-col gap-6">

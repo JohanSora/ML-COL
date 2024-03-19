@@ -22,7 +22,7 @@ const FirstSection = () => {
           </Button>
         </div>
       </div>
-      <div className="w-1/3">
+      <div className="w-1/3 max-h-[370px]">
         <ImageNext src={"/caballo.png"} width={500} height={500} />
       </div>
     </div>

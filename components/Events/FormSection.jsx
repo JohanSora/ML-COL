@@ -6,7 +6,7 @@ const FormSection = () => {
   return (
     <div className="w-full flex flex-col pb-6 gap-6">
       <div className="flex justify-between">
-        <div className="w-1/4 h-fit">
+        <div className="w-1/4 h-fit max-h-[364px]">
           <ImageNext src={"/Events/manos.png"} width={500} height={500} />
         </div>
         <div className="w-1/2 pt-6">

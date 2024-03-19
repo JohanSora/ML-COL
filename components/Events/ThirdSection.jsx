@@ -26,7 +26,7 @@ const ThirdSection = () => {
       <div className="w-full flex gap-6 justify-center">
         {info.map(({ img, text }, idx) => (
           <div key={idx} className="w-1/4 flex items-center">
-            <div className="w-1/4">
+            <div className="w-1/4 max-h-[99px]">
               <ImageNext src={img} width={200} height={200} />
             </div>
             <div className="w-3/4">{text}</div>

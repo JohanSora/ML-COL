@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="w-full bg-gray flex justify-between p-6 text-white">
       <div className="flex gap-6">
-        <div>
+        <div className="max-h-[121px]">
           <ImageNext src={"/logo_white.png"} width={500} height={500} />
         </div>
         <div className="flex flex-col justify-between">
