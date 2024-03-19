@@ -14,7 +14,7 @@ const FormSection = () => {
         </div>
       </div>
       <div className="px-6">
-        <p className="text-xl">Let's talk!</p>
+        <p className="text-xl">Let’s talk!</p>
         <p className="w-4/6">
           Con años de experiencia en el mundo del marketing, en MarketLogic nos
           dedicamos a visibilizar y potenciar a las empresas que necesitan abrir
