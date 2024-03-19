@@ -15,9 +15,9 @@ const Footer = () => {
             </strong>{" "}
             <span className="text-orange">it Happen</span>
           </p>
-          <p className="text-sm">
+          {/* <p className="text-sm">
             Politica de privacidad Sé un MarketLover Contacto
-          </p>
+          </p> */}
           <hr className="text-orange" />
           <p className="text-sm">MarketLogic © Copyright 2024</p>
         </div>
@@ -25,10 +25,13 @@ const Footer = () => {
       <div className="flex gap-6 items-center">
         <p>Síguenos</p>
         <div className="flex gap-6">
-          <a href="" className="h-fit">
+          <a href="https://www.facebook.com/mymarketlogic/" className="h-fit">
             <ImageNext src={"/face.png"} width={60} height={60} />
           </a>
-          <a href="" className="h-min">
+          <a
+            href="https://www.linkedin.com/company/marketlogic/mycompany/"
+            className="h-min"
+          >
             <ImageNext src={"/linke.png"} width={60} height={60} />
           </a>
         </div>
