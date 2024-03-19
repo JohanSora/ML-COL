@@ -6,7 +6,7 @@ const FourthSection = () => {
     <div className="w-full flex flex-col relative">
       <div className="absolute w-[150px]">
         <ImageNext
-          src={"/events/rocket.png"}
+          src={"/Events/rocket.png"}
           width={300}
           height={300}
           alt={"rocket marketlogic"}

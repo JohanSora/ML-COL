@@ -1,13 +1,16 @@
 "use client";
-import React from "react";
+import React, { Suspense } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import ImageNext from "../atoms/ImageNext";
+import { CircularProgress } from "@nextui-org/react";
 
 const Banners = () => {
   return (
     <div>
-      <>
+      <Suspense
+        fallback={<CircularProgress color="warning" aria-label="Loading..." />}
+      >
         <Swiper
           freeMode
           loop
@@ -50,7 +53,7 @@ const Banners = () => {
               </SwiperSlide>
             ))}
         </Swiper>
-      </>
+      </Suspense>
     </div>
   );
 };
