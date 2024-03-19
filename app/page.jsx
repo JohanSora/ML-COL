@@ -7,6 +7,12 @@ import SecondSection from "@/components/Events/SecondSection";
 import SixthSection from "@/components/Events/SixthSection";
 import ThirdSection from "@/components/Events/ThirdSection";
 import Image from "next/image";
+import dynamic from "next/dynamic";
+import { CircularProgress } from "@nextui-org/react";
+
+const DynamicBanners = dynamic(() => import("../components/Events/Banners"), {
+  loading: () => <CircularProgress color="warning" aria-label="Loading..." />,
+});
 
 export default function Home() {
   return (
@@ -15,7 +21,7 @@ export default function Home() {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
-      <Banners />
+      <DynamicBanners />
       <FifthSection />
       <SixthSection />
       <FormSection />
